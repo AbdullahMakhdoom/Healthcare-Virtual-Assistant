@@ -1,13 +1,12 @@
 """Python file to serve as the frontend"""
 import streamlit as st
 import os
-from dotenv import load_dotenv
 from streamlit_chat import message
-from langchain import OpenAI, ConversationChain, LLMChain, PromptTemplate
+from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.llms import OpenAI
 
-load_dotenv()
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 def load_chain():
     """Logic for loading the chain you want to use should go here."""
