@@ -1,4 +1,18 @@
-# LangChain-Streamlit Template
+# Felix Healthcare Virtual Assistant (MVP)
+
+ The MVP is Virtual Assistant, called Felix, that would assist patients in their checkup journey, which may include:-
+- Scheduling walk-in and family doctor appointments.
+- Managing appointments, such as confirming, cancelling and rescheduling.
+- General FAQs like hours of operations, parking, or other inquiries.
+- Prescription refills for patients.
+- Checking the status of results or referrals.
+
+## Setup
+
+- Create a python virtual environment: 
+
+  `python3 -m venv env`
+- Activate newly created virtual environent
 
 This repo serves as a template for how to deploy a LangChain on Streamlit.
 
