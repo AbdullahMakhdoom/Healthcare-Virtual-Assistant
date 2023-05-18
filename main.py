@@ -97,7 +97,7 @@ st.set_page_config(page_title="Phelix VA", page_icon=":robot:")
 # st.header("Felix Virtual Assistant")
 logo_url = "https://i.ibb.co/0Q9M6YT/logo.png"
 st.image(logo_url, width=35)
-st.header("Felix Virtual Assistant")
+st.header("Phelix Virtual Assistant")
 
         
 if "generated" not in st.session_state:
