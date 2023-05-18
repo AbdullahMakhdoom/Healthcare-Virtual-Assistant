@@ -93,7 +93,7 @@ def load_chain():
 chain = load_chain()
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="Felix VA", page_icon=":robot:")
+st.set_page_config(page_title="Phelix VA", page_icon=":robot:")
 # st.header("Felix Virtual Assistant")
 logo_url = "https://i.ibb.co/0Q9M6YT/logo.png"
 st.image(logo_url, width=35)
