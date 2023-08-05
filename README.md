@@ -1,4 +1,4 @@
-# Felix Healthcare Virtual Assistant (MVP)
+# Felix Healthcare Virtual Assistant
 
  This repository contains the development of an MVP for a Virtual Assistant named Felix, who will assist patients in their checkup journey. 
  Felix can help patients with the following tasks:
